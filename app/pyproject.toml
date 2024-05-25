@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jeepney-api"
+version = "0.1.0"
+description = "A Jeepney API for your commuting needs"
+authors = ["Anj Lapastora <angelicalapastora@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.3"
+psycopg2-binary = "^2.9.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
